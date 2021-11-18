@@ -1,17 +1,3 @@
-<!-- 
- *
- * (c) Kitodo. Key to digital objects e. V. <contact@kitodo.org>
- *
- * This file is part of the Kitodo project.
- *
- * It is licensed under GNU General Public License version 3 or later.
- *
- * For the full copyright and license information, please read the
- * GPL3-License.txt file that was distributed with this source code.
- *
-
-
-  -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:mets="http://www.loc.gov/METS/" xmlns:kitodo="http://meta.kitodo.org/v1/"  xmlns:marc="http://www.loc.gov/MARC21/slim">
   <xsl:output method="xml" indent="yes" encoding="utf-8"/>
   <xsl:strip-space elements="*"/>
