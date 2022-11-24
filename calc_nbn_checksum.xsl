@@ -16,10 +16,6 @@
         <xsl:with-param name="newURN_2" select="$newURN"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:message>
-      <xsl:value-of select="$fullSum"/>
-    </xsl:message>
-
     <xsl:variable name="lastNumber" select="substring($newURN,string-length($newURN))"/>
     <xsl:variable name="quot" select="number($fullSum) div number($lastNumber)"/>
     <xsl:message>
